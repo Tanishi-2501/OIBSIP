@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+h2{
+    padding-bottom: 1rem;
+}
+
+.card{
+    width: 30rem;
+    height: 20rem;
+    border-radius: 1rem;
+    margin: auto;
+    text-align: center;
+    background-color: #b39316;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    padding-top: 30px;
+}
+
+input{
+    height: 2rem;
+    border-radius: 0.2rem;
+    width: 15rem;
+    border: 0px hidden;
+    border-bottom: 2px solid black;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+    outline: none;
+    font-size: larger;
+    font-weight:bold;
+    margin-top: 8px;
+}
+
+select{
+    height: 2rem;
+    border-radius: 0.2rem;
+    width: 15rem;
+    border: hidden;
+    outline: none;
+    margin-top: 8px;
+}
+
+button{
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+    border: hidden
+}
+
+label{
+    font-size: large;
+    font-weight: bold;
+}
+
+p{
+    font-size: large;
+    font-family:fantasy;
+}

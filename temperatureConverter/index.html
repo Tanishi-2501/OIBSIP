@@ -1,1 +1,27 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Temperature Converter</h2>
+                <label for="degree">Degree</label><br>
+                <input type="number" name="degree" id="degree" required autofocus="on"><br><br>
+                <label for="type">Conversion</label><br>
+                <select name="type" id="type" required>
+                    <option value="">Select Conversion type</option>
+                    <option value="CelsiusToFahrenheit">Celsius to Fahrenheit</option>
+                    <option value="FahrenheitToCelsius">Fahrenheit to Celsius</option>
+                </select><br><br>
+                <button type="submit" id="convert">Convert</button><br><br>
+                <p id="result"></p>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
